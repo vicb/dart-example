@@ -1,0 +1,8 @@
+name: woven
+dependencies:
+  browser: any
+  http: any
+  json: any
+  polymer: any
+  browser: any
+  http_server: any

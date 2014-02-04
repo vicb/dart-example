@@ -1,0 +1,10 @@
+<polymer-element name="facebook-info">
+    <template>
+        <input type="text" value="{{name}}">
+        <button on-click="{{fetch}}">Fetch</button>
+        <h1>{{name}} : {{title}}</h1>
+        <h2>{{description}}</h2>
+        <img src="{{logoUrl}}" />
+    </template>
+    <script type="application/dart" src="fb.dart"></script>
+</polymer-element>
